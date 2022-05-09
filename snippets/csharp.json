@@ -198,7 +198,7 @@
     "Interface": {
         "prefix": "interface",
         "body": [
-            "interface I${1:Name}",
+            "interface ${1:Name}",
             "{",
             "\t$0",
             "}"
@@ -295,7 +295,7 @@
     "Namespace": {
         "prefix": "namespace",
         "body": [
-            "namespace ${1:Name}",
+            "namespace ${1:$RELATIVE_FILEPATH}",
             "{",
             "\t$0",
             "}"
